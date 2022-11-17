@@ -1,0 +1,24 @@
+[Desktop Entry]
+Name=Аctive Ticet
+Comment=Аctive Ticet
+Icon=dialog-error
+
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-KDE-PluginInfo-Author=fill.sa
+X-KDE-PluginInfo-Email=fill.sa@mail.ru
+X-KDE-PluginInfo-Name=my.plasma.showdesktop
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://github.com/fillsa
+X-KDE-PluginInfo-Category=Windows and Tasks
+X-KDE-PluginInfo-License=GPL-2.0+
+X-KDE-PluginInfo-EnabledByDefault=true
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-Provides=org.kde.plasma.windowmanagement
+#X-Plasma-Provides=org.kde.plasma.time,org.kde.plasma.date
+X-Plasma-API=declarativeappletscript
+
+
+
+X-KDE-FormFactors=desktop

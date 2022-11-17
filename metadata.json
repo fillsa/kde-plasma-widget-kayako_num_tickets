@@ -1,0 +1,30 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "fill.sa@mail.ru",
+                "Name": "fill.sa"
+            }
+        ],
+        "Category": "Windows and Tasks",
+        "Description": "Аctive Ticet",
+        "EnabledByDefault": true,
+        "FormFactors": [
+            "desktop"
+        ],
+        "Icon": "dialog-error",
+        "Id": "my.plasma.showdesktop",
+        "License": "GPL-2.0+",
+        "Name": "Show Desktop",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://github.com/fillsa"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.windowmanagement"
+    ]
+}
